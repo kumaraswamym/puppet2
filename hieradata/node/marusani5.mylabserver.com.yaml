@@ -1,0 +1,6 @@
+---
+domain_name: marusani5.mylabserver.com
+api_key: marusani5_api_key
+db_url:  url_db
+db_username: mobiledb
+db_password: xyzdb

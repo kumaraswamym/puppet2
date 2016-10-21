@@ -51,12 +51,12 @@ include ssh::params
 }
 node "marusani5.mylabserver.com" {
 #$var2 = "this is a node scope variable"
-include base
-include ssh
-include ssh::params
-include ntp
+include hdemo
 }
-
+node "marusani6.mylabserver.com" {
+#$var2 = "this is a node scope variable"
+include hdemo
+}
 node "marusani5" {
 
 include ntp
